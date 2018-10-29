@@ -6,4 +6,4 @@ Library  Process
 *** Test Cases ***
 
 Simple Test
-	Run process  ifconfig –a eth0
+	Run process  ifconfig  –a  eth0
