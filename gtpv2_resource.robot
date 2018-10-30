@@ -1,6 +1,6 @@
 *** Settings ***
 Library    Rammbock
-Library    ../message_tools.py
+Library    message_tools.py
 
 
 *** Variables ***
