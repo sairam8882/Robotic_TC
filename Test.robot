@@ -1,7 +1,7 @@
 *** Settings ***
 Library  Process    
-*** Variables ***
- 
+*** Keywords ***
+Test  Run process
 *** Test cases ***
 Example2       
-  Run process  netstat  -an  |  find  "LISTENING"
+  Test  netstat  -an  |  find  "LISTENING"
