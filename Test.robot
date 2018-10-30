@@ -2,8 +2,9 @@
 Library  Process    
 *** Keywords ***
 Open port find
-  Run process  netstat  -an  |  find  "10.6.136.123"  |  find  "139"
+  Run process  netstat  -tlpn  |  grep  "172.17.0.2"  |  find  "139"
 
 *** Test cases ***
 Example2       
   Open port find
+
