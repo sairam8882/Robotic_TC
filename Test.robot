@@ -1,7 +1,7 @@
 *** Settings ***
-Library Selenium2Library       
+Library process     
 *** Variables ***
  
 *** Test cases ***
 Example2       
-  Open Browser  Firefox  http://thetestingworld.com
+  netstat -an | find "LISTENING"
