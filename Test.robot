@@ -4,4 +4,4 @@ Library process
  
 *** Test cases ***
 Example2       
-  netstat -an | find "LISTENING"
+  Run Process  netstat  -an  |  find  "LISTENING"
