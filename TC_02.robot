@@ -1,8 +1,6 @@
 *** Settings ***
-Library   Process  
-
-*** Variables ***
+ Library  Process
 
 *** Test cases ***
 Example    
-  Run process  netstat –tlpn | grep ‘:80’     
+  Run process  netstat â€“tlpn | grep â€˜:80â€™     
