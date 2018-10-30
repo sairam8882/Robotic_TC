@@ -1,7 +1,9 @@
 *** Settings ***
 Library  Process    
 *** Keywords ***
+Open Login Page
+Run process netstat -an | find "LISTENING"
 Test  Run process
 *** Test cases ***
 Example2       
-  Test  netstat  -an  |  find  "LISTENING"
+  Open Login Page
