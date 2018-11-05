@@ -3,7 +3,8 @@ Library    ipadd.py
 
 *** Test cases ***
 Ipadd Query
-    Log get the ipaddress of machine
+    ${out} = get the ipaddress of machine
+    Log  ${out}
 
 *** Keywords ***
 get the ipaddress of machine
