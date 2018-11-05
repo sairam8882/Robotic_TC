@@ -8,4 +8,5 @@ Ipadd Query
 
 *** Keywords ***
 get the ipaddress of machine
-    getipaddress
+    ${result}=  getipaddress
+    Log    testing${result}    console=${True}
