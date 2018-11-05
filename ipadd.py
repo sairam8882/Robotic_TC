@@ -1,6 +1,7 @@
 import socket 
  
 def getipaddress():
+    print("Your Computer IP Address is:")
     hostname = socket.gethostname()
     IPAddr = socket.gethostbyname(hostname)
     print("Your Computer Name is:" + hostname)    
