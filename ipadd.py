@@ -1,6 +1,6 @@
 import socket 
  
-def respond_to_sample(rammbock, msg, client):
+def getipaddress:
     hostname = socket.gethostname()
     IPAddr = socket.gethostbyname(hostname)
     print("Your Computer Name is:" + hostname)    
