@@ -9,6 +9,6 @@ Ipadd Query
 *** Keywords ***
 get the ipaddress of machine
     ${result}=  getipaddress
-    Log    testing${result}    console=${True}
+    Log    ${result}    console=${True}
 get the ipaddress of machine1
     Log    found    console=${True}
